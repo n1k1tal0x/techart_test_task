@@ -1,0 +1,18 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: techart_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: news
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: laravel
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./db/news.sql:/docker-entrypoint-initdb.d/news.sql:ro
+
+volumes:
+  mysql_data:
