@@ -26,5 +26,15 @@
             <h1>Возвращение этнографа</h1>
             <span>Сегодня с Проксимы вернулась этнографическая экспедиция Джона Голдрама.</span>
         </div>
+        <div class="NewsList">
+            <h3>Новости</h3>
+            <div class="NewsBlocks">
+                @for ($i = 0; $i < 4; $i++)
+                    <div class="NewBlock">
+                        <div class="Timestamp"></div>
+                    </div>
+                @endfor
+            </div>
+        </div>
     </body>
 </html>
