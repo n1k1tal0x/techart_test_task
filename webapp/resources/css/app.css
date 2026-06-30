@@ -7,3 +7,73 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 40px 200px;
+}
+
+.Header h1 {
+    font-family:'Segoe UI';
+    font-style: normal;
+    width: 400px;
+    font-size: 28px;
+    line-height: 132%;
+    letter-spacing: 12.5%;
+    text-transform: uppercase;
+    color: #2C145E;
+}
+
+.Header img {
+    width: 93px;
+    height: 66px;
+}
+
+.BestNewBlock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 646px;
+    background-color:blueviolet;
+    padding: 218px 460px 256px 195px;
+}
+
+.BestNewBlock h1 {
+    font-family: 'Open Sans';
+    font-size: 64px;
+    color: white;
+    line-height: 140%;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.BestNewBlock span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    letter-spacing: 0px;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

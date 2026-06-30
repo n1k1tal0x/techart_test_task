@@ -5,9 +5,9 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: news
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: 267421c7-89c4-4ba1-947d-82241ff3c24e
       MYSQL_USER: laravel
-      MYSQL_PASSWORD: laravel
+      MYSQL_PASSWORD: 6d5aa89a-17cc-4eab-aa11-22ba10828326
     ports:
       - "3306:3306"
     volumes:
