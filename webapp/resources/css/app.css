@@ -88,6 +88,7 @@ body {
     gap: 60px;
     padding: 0px 200px;
     margin-top: 54.32px;
+    margin-bottom: 83px;
 }
 
 .NewsList h3 {
@@ -140,7 +141,6 @@ body {
 }
 
 .NewTextBlock .NewTitle {
-    display: block;
     color: #000000;
     font-family: 'Open Sans';
     font-weight: 400;
@@ -207,7 +207,62 @@ body {
 }
 
 .PageSelector {
+    width: 100%;
     margin-top: 23px;
     display: flex;
-    background-color: #2C145E;
+    grid-column: 1 / -1;
+    justify-content: end;
+    gap: 16px;
+}
+
+.PageIndex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: transparent;
+    border: #841844 2px solid;
+    padding: 16px 23px;
+    cursor: pointer;
+}
+
+.PageIndex span {
+    color: #841844;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.PageIndex.active {
+    background-color: #841844;
+}
+
+.PageIndex.active span {
+    color: #FFFFFF; 
+}
+
+.Footer {
+    width: 100%;
+    height: 180px;
+    padding: 0px 200px;
+}
+
+.FooterContent {
+    width: 100%;
+    height: 100%;
+    border-top: #6C6E7B 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+.FooterContent span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    color: #000000;
 }
