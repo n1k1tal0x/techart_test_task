@@ -43,6 +43,9 @@ body {
     height: 646px;
     background-color:blueviolet;
     padding: 218px 460px 256px 195px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .BestNewBlock h1 {
@@ -150,6 +153,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align: center;
+    gap: 10px;
     justify-content: center;
     border: #9B407A 2px solid;
     border-radius: 50px;
@@ -169,4 +174,29 @@ body {
     flex-direction: column; justify-content: space-between;
     gap: 30px;
     align-items: start;
+}
+
+.NewBlock .defaultArrow {
+    display: flex;
+} 
+
+.NewBlock .hoverArrow {
+    display: none;
+}
+
+.NewBlock:hover {
+    cursor: pointer;
+}
+
+.NewBlock:hover button {
+    background-color: #841844;
+    color: #FFFFFF;
+}
+
+.NewBlock:hover .defaultArrow{
+    display: none;
+}
+
+.NewBlock:hover .hoverArrow {
+    display: flex;
 }
