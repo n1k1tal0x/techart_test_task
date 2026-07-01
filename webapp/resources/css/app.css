@@ -167,6 +167,7 @@ body {
     line-height: 100%;
     letter-spacing: 0px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .NewBlock {
@@ -199,4 +200,14 @@ body {
 
 .NewBlock:hover .hoverArrow {
     display: flex;
+}
+
+.NewBlock:hover h2 {
+    color: #841844;
+}
+
+.PageSelector {
+    margin-top: 23px;
+    display: flex;
+    background-color: #2C145E;
 }
