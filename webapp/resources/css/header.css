@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 40px 200px;
+}
+
+.Header h1 {
+    font-family:'Segoe UI';
+    font-style: normal;
+    width: 400px;
+    font-size: 28px;
+    line-height: 132%;
+    letter-spacing: 12.5%;
+    text-transform: uppercase;
+    color: #2C145E;
+}
+
+.Header img {
+    width: 93px;
+    height: 66px;
+}

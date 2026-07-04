@@ -13,29 +13,6 @@ body {
     flex-direction: column;
 }
 
-.Header {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    padding: 40px 200px;
-}
-
-.Header h1 {
-    font-family:'Segoe UI';
-    font-style: normal;
-    width: 400px;
-    font-size: 28px;
-    line-height: 132%;
-    letter-spacing: 12.5%;
-    text-transform: uppercase;
-    color: #2C145E;
-}
-
-.Header img {
-    width: 93px;
-    height: 66px;
-}
-
 .BestNewBlock {
     display: flex;
     flex-direction: column;
@@ -242,27 +219,4 @@ body {
 
 .PageIndex.active span {
     color: #FFFFFF; 
-}
-
-.Footer {
-    width: 100%;
-    height: 180px;
-    padding: 0px 200px;
-}
-
-.FooterContent {
-    width: 100%;
-    height: 100%;
-    border-top: #6C6E7B 1px solid;
-    display: flex;
-    align-items: center;
-}
-
-.FooterContent span {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 160%;
-    letter-spacing: 0px;
-    color: #000000;
 }

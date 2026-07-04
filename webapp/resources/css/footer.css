@@ -1,0 +1,22 @@
+.Footer {
+    width: 100%;
+    height: 180px;
+    padding: 0px 200px;
+}
+
+.FooterContent {
+    width: 100%;
+    height: 100%;
+    border-top: #6C6E7B 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+.FooterContent span {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0px;
+    color: #000000;
+}
