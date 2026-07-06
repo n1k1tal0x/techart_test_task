@@ -1,9 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="BestNewBlock" style="background-image: url('/images/0cdfb0183c985bea52e35b50e99f0909.jpg')">
-        <h1>Возвращение этнографа</h1>
-        <span>Сегодня с Проксимы вернулась этнографическая экспедиция Джона Голдрама.</span>
+    <div class="BestNewBlock" style="background-image: url('images/{{ $news->first()->image }}')">
+        <h1>{{ $news->first()->title }}</h1>
+        {!!  $news->first()->announce !!}
     </div>
     <div class="NewsList">
         <h3>Новости</h3>
@@ -25,8 +25,8 @@
                 // ];
                 $currentPageNews = $news->slice($offset, $newsOnPage);
             @endphp
-            @foreach ($currentPageNews as $index => $new)
-                <div class="NewBlock" onclick="window.location.href = '/new/{{ $index }}'">
+            @foreach ($currentPageNews as $new)
+                <div class="NewBlock" onclick="window.location.href = '/new/{{ $new['id'] }}'">
                     <div class="NewTextBlock">
                         <div class="Timestamp">
                             <span>{{ \Carbon\Carbon::parse($new['date'])->format('d.m.Y') }}</span>
