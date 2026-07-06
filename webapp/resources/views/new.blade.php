@@ -7,7 +7,7 @@
             <h1>Возвращение этнографа</h1>
         </div>
         <div class="MainNewBlock">
-            <div class="NewTextBlock">
+            <div class="NewTextBlock" style="flex-direction: row; align-items:center;">
                 <div class="GlobalNewsText">
                     <div class="Timestamp">
                         <span>11.06.2412</span>

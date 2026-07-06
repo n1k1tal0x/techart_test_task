@@ -85,9 +85,9 @@ body {
 
 .NewTextBlock {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
-    align-items: center;
+    align-items: start;
 }
 
 .Timestamp {
@@ -294,12 +294,14 @@ body {
 }
 
 .GlobalNewsText button {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
     gap: 10px;
     justify-content: center;
+    width: fit-content;
+    align-self: flex-start;
     border: #9B407A 2px solid;
     border-radius: 50px;
     background-color: transparent;
