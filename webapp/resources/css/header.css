@@ -3,6 +3,7 @@
     flex-direction: row;
     gap: 24px;
     padding: 40px 200px;
+    border-bottom: #6C6E7B 1px solid;
 }
 
 .Header h1 {

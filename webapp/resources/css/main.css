@@ -85,9 +85,9 @@ body {
 
 .NewTextBlock {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 30px;
-    align-items: start;
+    align-items: center;
 }
 
 .Timestamp {
@@ -219,4 +219,76 @@ body {
 
 .PageIndex.active span {
     color: #FFFFFF; 
+}
+
+.NewPath {
+    color: #000000;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.NewName {
+    color: rgba(108, 110, 123, 1);
+}
+
+.TitleBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 21.86;
+}
+
+.TitleBlock h1 {
+    font-family: 'Open Sans';
+    font-size: 64px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 140%;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.MainNewBlock {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.MainNewBlock img{
+    width: 740px;
+    height: 570px;
+    object-fit: cover;
+}
+
+.GlobalNewsText {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.GlobalNewsText h2 {
+    color: rgba(132, 24, 68, 1);
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.NewTextContent {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.NewTextContent p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: black;
+    line-height: 160%;
+    font-weight: 400;
+    letter-spacing: 0px;
 }
