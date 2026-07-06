@@ -117,7 +117,7 @@ body {
     letter-spacing: 0px;
 }
 
-.NewTextBlock .NewTitle {
+.NewTextBlock p {
     color: #000000;
     font-family: 'Open Sans';
     font-weight: 400;
