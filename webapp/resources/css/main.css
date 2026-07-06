@@ -292,3 +292,45 @@ body {
     font-weight: 400;
     letter-spacing: 0px;
 }
+
+.GlobalNewsText button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+    border: #9B407A 2px solid;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 16px 41px 16px 41px;
+    color: #841844;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.GlobalNewsText button:hover {
+    background-color: #841844;
+    color: #FFFFFF;
+}
+
+.GlobalNewsText .hoverArrow {
+    display: none;
+}
+
+.GlobalNewsText button:hover .hoverArrow {
+    display: flex;
+}
+
+.GlobalNewsText .defaultArrow {
+    display: flex;
+}
+
+.GlobalNewsText button:hover .defaultArrow {
+    display: none;
+}
