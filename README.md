@@ -1,4 +1,13 @@
-# webapp
+# Основное
+
+В папке webapp лежит Laravel с сайтом
+Всё сделал на чистом html+css+php
+Есть docker-compose который разворачивает MySQL
+Ссылка на сайт: https://techart.n1k1tal0x.com/
+По архитектуре использовал то, что даёт стартовый Laravel, только потом увидел, что надо было в MVC. Но опыт работы с MVC у меня есть, также с фронтовским FSD.
+Сайт развернул на nginx+certbot если интересно :)
+
+# Папка webapp (Laravel)
 
 ### Компоненты
 
@@ -31,3 +40,7 @@ webapp/resources/css/header.css
 
 - Футер
 webapp/resources/css/footer.css
+
+# Папка db
+
+В ней лежит .sql скрипт который в контейнер помещается при запуске компоуза
